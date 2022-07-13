@@ -38,7 +38,7 @@ export class AppComponent {
   d = '';
 
   constructor(t: DomSanitizer) {
-    //this.a = t.sanitize(0, this.name);
+    this.a = t.sanitize(0, this.name);
     //this.b = t.sanitize(1, this.name);
     //this.c = t.sanitize(2, this.name);
     //this.d = t.sanitize(3, this.name);
