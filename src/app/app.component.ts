@@ -18,7 +18,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class AppComponent {
   href = 'https://www.google.com';
   ctlTarget = 'https://www.google.com';
-  imgUrl = 'https://portal-pdev.azurewebsites.net/cgs_bc_blk.51b3a0b9063dc97fe7fa.svg'
+  imgUrl =
+    'https://portal-pdev.azurewebsites.net/cgs_bc_blk.51b3a0b9063dc97fe7fa.svg';
   name = `<h1>inside_h1</h1>
           <br />
           Alert : <script>alert('hi')</script>
