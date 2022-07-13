@@ -15,7 +15,7 @@ import { DomSanitizer } from '@angular/platform-browser';
     <div [innerHTML]="d"></div>
   `,
 })
-export class AppComponent  {
+export class AppComponent {
   href = 'https://www.google.com';
   ctlTarget = 'https://www.google.com';
   name = `<h1>inside_h1</h1>
@@ -36,7 +36,7 @@ export class AppComponent  {
   d = '';
 
   constructor(t: DomSanitizer) {
-    this.a = t.sanitize(0, this.name);
+    //this.a = t.sanitize(0, this.name);
     //this.b = t.sanitize(1, this.name);
     //this.c = t.sanitize(2, this.name);
     //this.d = t.sanitize(3, this.name);
