@@ -25,7 +25,7 @@ export class AppComponent {
           Alert : <script>alert('hi')</script>
           <br />
           <b>inside_bold</b>
-          <p>inside_p</p> 
+          <p>inside_p</p>
           <a href=#>Click Here</>
           <br />
           <img src=${this.imgUrl} >
